@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solutions of Justice</title>
+    <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts 'poppins and eb garamond' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/d6c02b4ec9.js" crossorigin="anonymous"></script>
+    <style>
+        .poppins-font{
+            font-family: 'Poppins', sans-serif;
+        }
+        .eb-garamond{
+            font-family: "EB Garamond", serif;           
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                bgc: '#B68C5A',
+                'h-color': '#414040',
+                'p-color': '#707070'
+              }
+            },
+            backgroundImage: {
+        'hero-pattern': "url('./images/banner')",
+      }
+          }
+        }
+      </script>
+
+</head>
+<body class="eb-garamond">
+    <header>
+        <div class="navbar bg-base-100 poppins-font">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Service</a>
+                    <ul class="p-2">
+                      <li><a>Official</a></li>
+                      <li><a>Non-Official</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Cases</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img src="./images/logo2.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li>
+                  <details>
+                    <summary>Service</summary>
+                    <ul class="p-2">
+                      <li><a>Official</a></li>
+                      <li><a>Non-Official</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Cases</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn font-semibold text-white bg-bgc uppercase text-xl">Free Consultation</a>
+            </div>
+          </div>
+
+          <!-- banner section -->
+          <div class="container mx-auto h-[550px] bg-[url('./images/banner.png')] bg-no-repeat bg-center bg-cover flex gap-4 p-3 lg:p-20 justify-center">
+            
+            <div class="w-full md:w-3/4 lg:w-3/4 text-center space-y-4">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl text-white font-semibold">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+
+                </p>
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <input type="text" placeholder="Search Your Services" class="block min-h-8 p-3 w-full lg:w-11/12 rounded-xl text-xl">
+                    <button class="btn font-semibold text-white bg-bgc uppercase text-xl">Search</button>
+                </div>
+            </div>
+
+          </div>
+    </header>
+  <!-- main section  -->
+    <main>
+        <!-- The Legal Practice sections -->
+        <section class="container mx-auto p-2 md:8 lg:p-10">
+            <div class="w-full md:w-3/4 lg:w-3/4 text-center space-y-4 mx-auto my-10">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl text-h-color font-semibold">The Legal Practice Area</h1>
+                <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- first law -->
+            <div class="grid grid-rows-2 gap-1 lg:gap-0">
+                <div class="text-center  m-auto grid grid-cols-1 lg:grid-cols-3">
+                    <div class="text-center p-2 md:p-8 lg:p-10 space-y-4 border-b-[1px]">
+                        <img src="./images/business.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Business Law</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                    <div class="text-center p-2 md:p-8 lg:p-10  bg-gradient-to-l from-[#F3F3F3] to-[#F3F3F3] border-b-[1px] border-l-[1px] border-r-[1px] space-y-4">
+                        <img src="./images/criminal.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Criminal Law</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                    <div class="text-center p-2 md:p-8 lg:p-10 border-b-[1px] space-y-4">
+                        <img src="./images/child.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Child Support</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+                <!-- second law -->
+                <div class="text-center m-auto grid grid-cols-1 lg:grid-cols-3">
+                    <div class="text-center p-2 md:p-8 lg:p-10 space-y-4">
+                        <img src="./images/business.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Business Law</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                    <div class="text-center p-2 md:p-8 lg:p-10 space-y-4 bg-gradient-to-l from-[#F3F3F3] to-[#F3F3F3] border-l-[1px] border-r-[1px]">
+                        <img src="./images/criminal.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Criminal Law</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                    <div class="text-center p-2 md:p-8 lg:p-10 space-y-4">
+                        <img src="./images/child.png" alt="" class="block m-auto">
+                        <h1 class="text-2xl font-extrabold">Child Support</h1>
+                        <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What client says sections -->
+        <section class="container mx-auto p-2 md:8 lg:p-10">
+            <!-- heading div -->
+            <div class="w-full md:w-3/4 lg:w-3/4 text-center space-y-4 mx-auto my-10">
+                <h1 class="text-3xl md:text-5xl lg:text-7xl text-h-color font-semibold">What Our Client Say</h1>
+                <p class="text-p-color">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <!-- slide div -->
+            <div class="carousel w-full h-full lg:max-h-[450px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./images/slider-1.jpg" class="w-full object-cover"  />
+                  <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <div class="space-y-4 text-center text-white font-extrabold">
+                        <i class="fa-solid fa-user text-3xl lg:text-6xl"></i>
+                        <h1 class="text-2xl ">Nur Mohammad Palash</h1>
+                        <p>Junior Web Developer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae.</p>
+                    </div> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full ">
+                  <img src="./images/slider-2.jpg" class="w-full object-cover" />
+                  <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <div class="space-y-4 text-center text-white font-extrabold">
+                        <i class="fa-solid fa-user text-3xl lg:text-6xl"></i>
+                        <h1 class="text-2xl ">Nur Mohammad Palash</h1>
+                        <p>Junior Web Developer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae.</p>
+                    </div> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full ">
+                  <img src="./images/slider-3.jpg" class="w-full object-cover" />
+                  <div class="absolute flex justify-between transform items-center -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <div class="space-y-4 text-center text-white font-extrabold">
+                        <i class="fa-solid fa-user text-3xl lg:text-6xl"></i>
+                        <h1 class="text-2xl ">Nur Mohammad Palash</h1>
+                        <p>Junior Web Developer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae.</p>
+                    </div> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./images/slider-3.jpg" class="w-full object-cover" />
+                  <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <div class="space-y-4 text-center text-white font-extrabold">
+                        <i class="fa-solid fa-user text-3xl lg:text-6xl"></i>
+                        <h1 class="text-2xl ">Nur Mohammad Palash</h1>
+                        <p>Junior Web Developer</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, repudiandae.</p>
+                    </div> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    
+</body>
+</html>
